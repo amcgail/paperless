@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<script>
+    var autocomplete_tags = {{autocomplete_tags|safe}};
+</script>
+
+<script src="/static/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<script src="/static/tag-it/js/tag-it.min.js"></script>
+
+<script src="/static/browser/main.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+<link href="/static/browser/main.css" rel="stylesheet"/>
+<link href="/static/tag-it/css/jquery.tagit.css" rel="stylesheet"/>
+
+<div id="num_images"></div>
+<div id="buttons">
+    <button id="ingest">Ingest</button>
+</div>
+
+<div id="search">
+    <input>
+    <div id="options"></div>
+</div>
+<div id="images">
+
+</div>
+<!--
+<div id="tags">
+    <div class="title">Tags...</div>
+    <div class="window"></div>
+    <div id="hideshow"></div>
+</div>
+-->

@@ -1,0 +1,38 @@
+#main {
+    width: 100%;
+}
+
+#image img {
+    width: 100%;
+}
+
+#image, #actions {
+    width: 50%;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+#actions {
+    vertical-align: top;
+}
+
+.action {
+    padding: 10px;
+    cursor: pointer;
+    vertical-align: top;
+    border-bottom: 2px solid;
+    background-color: #DDD;
+}
+
+.action:hover {
+    background-color: black;
+    color: white;
+}
+
+img.rotated {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

@@ -1,0 +1,110 @@
+#search input {
+    width: 100%;
+}
+
+#tags {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: white;
+}
+
+#tags #hideshow {
+    cursor: pointer;
+    width: 10%;
+    border-right: 2px solid;
+    background-color: #DDD;
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+#tags.hidden {
+    right: 100%;
+    margin-right: -10%;
+}
+
+.tag {
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+.tag .children {
+    margin-left: 5px;
+    border-left: 1px dotted;
+    padding-left: 5px;
+}
+
+.tag .title {
+    padding: 5px;
+}
+
+.btn_cont, .tag .title {
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+img {
+    margin: 10px auto;
+    border: 1px solid;
+    display: block;
+}
+
+span {
+    margin: 5px;
+}
+
+span.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#main {
+    width: 100%;
+}
+
+#image img {
+    width: 100%;
+}
+
+#image, #actions {
+    width: 50%;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+#actions {
+    vertical-align: top;
+}
+
+.action {
+    padding: 10px;
+    cursor: pointer;
+    vertical-align: top;
+    border-bottom: 2px solid;
+    background-color: #DDD;
+}
+
+.action:hover {
+    background-color: black;
+    color: white;
+}
+
+img.rotated {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
